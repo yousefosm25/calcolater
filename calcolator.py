@@ -183,5 +183,5 @@ class calcolator :
             print("Invalid choice. Please try again")
             self.printt()
         self.continu()
-calc = calcolator()
-calc.printt()
+S1= calcolator()
+S1.printt()
