@@ -1,4 +1,4 @@
-class calcolator :
+class Calcolator :
     def __init__(self):
         self.num1 = 0
         self.num2 = 0
@@ -128,8 +128,7 @@ class calcolator :
         num_str = str(self.num1)
         return num_str == num_str[::-1]
     
-    def printt(self):
-      while True:  
+    def printt(self): 
         try:
             print("Welcome to calcolator")
             print('''Please choose an option:
@@ -183,5 +182,7 @@ class calcolator :
             print("Invalid choice. Please try again")
             self.printt()
         self.continu()
-S1= calcolator()
+        
+        
+S1= Calcolator()
 S1.printt()
